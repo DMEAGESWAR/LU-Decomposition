@@ -9,8 +9,11 @@ To write a program to find the LU Decomposition of a matrix.
 
 ## Algorithm
 Step1 : Import the numpy module to use the built-in functions for calculation
-Step 2: Prepare the lists from each linear equations and assign in np.array()
-Step 3: Using the np.linalg.eig(), we get two results (first is eigenvalue and second is eigenvector) of the given matrix.
+
+Step 2: for the further process need to use from scipy.linalg for matrix operations
+
+Step 3: proceed with np.array  to get the output
+
 Step 4: End the program 
 
 ## Program:
